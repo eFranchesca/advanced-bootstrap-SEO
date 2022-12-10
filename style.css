@@ -9,20 +9,6 @@ body {
   margin-top: 100px;
 }
 
-@media (max-width: 400px) {
-  h2 {
-    text-align: center;
-  }
-  p {
-    text-align: justify;
-  }
-  primary-link {
-text-align: center;
-background-color: #6c63ff;
-color: #f5f2fe;
-  }
-}
-
 h1,
 h2,
 h3 {
@@ -124,4 +110,23 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width 900px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+    }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
